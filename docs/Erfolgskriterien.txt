@@ -1,0 +1,76 @@
+Ziel
+
+Ich definiere messbare Kriterien, um objektiv zu prüfen, ob der MVP von „RFQ Intake Automation“ erreicht ist (auch mit synthetischen Daten).
+
+1) Metriken (KPIs) für den MVP
+M1 — Valid JSON Rate
+
+Definition: Anteil der RFQs, für die das System schema-valides JSON erzeugt (ohne Crash).
+Messung: #valid_json / #total
+Zielwert (MVP): ≥ 90% bei meinem Testset (z. B. 50–100 RFQs)
+
+M2 — Review Precision (Needs-Review Trefferquote)
+
+Definition: Wenn needs_review=true, ist mindestens ein Pflichtfeld wirklich fehlend/unsicher.
+Messung: Stichprobe/Labeling im Testset: #korrekt_review / #needs_review
+Zielwert (MVP): ≥ 80%
+
+M3 — Auto-Approve Rate (Straight-Through)
+
+Definition: Anteil RFQs, die ohne manuelle Korrektur durchgehen (needs_review=false) und plausibel sind.
+Messung: #auto_approved / #total
+Zielwert (MVP): ≥ 50% (bei absichtlich “dirty” Daten ist das realistisch)
+
+M4 — Pflichtfelder-Abdeckung
+
+Definition: Anteil RFQs, bei denen alle Pflichtfelder ausgefüllt sind (oder bewusst unknown).
+Messung: #complete_required / #total
+Zielwert (MVP): ≥ 70% (je nach Dirty-Rate; anpassbar)
+
+M5 — Laufzeit pro RFQ (optional)
+
+Definition: Zeit für End-to-End Verarbeitung eines RFQs (Text → JSON → Validation → Export).
+Messung: Logging in Sekunden.
+Zielwert (MVP): < 10 s pro RFQ lokal (als Richtwert)
+
+2) Qualitätskriterien (nicht nur Zahlen)
+Q1 — Nachvollziehbarkeit
+
+Output enthält missing_fields und/oder clarification_questions
+
+Jede Entscheidung „needs_review“ ist begründbar (z. B. fehlendes Datum)
+
+Q2 — Robustheit bei „dirty“ Inputs
+
+System bricht nicht ab bei:
+
+fehlenden Angaben
+
+widersprüchlichen Formaten (z. B. “1.000”, “1000 pcs”)
+
+mehreren Datumsangaben
+
+Q3 — Konsistenz des Formats
+
+JSON bleibt schema-konform (Datentypen, Felder, keine Freitext-Ausreißer)
+
+3) Testset-Definition (Golden Set)
+Testset-Größe
+
+MVP-Testset: 30 RFQs
+
+Erweitert: 100 RFQs
+
+Zusammensetzung (empfohlen)
+
+60% „sauber“ (fast vollständig)
+
+30% „unvollständig“ (mind. 1 Pflichtfeld fehlt)
+
+10% „widersprüchlich“ (z. B. zwei Mengen / zwei Liefertermine)
+
+Artefakte
+
+data_samples/raw/ → Input-Texte
+
+data_samples/expected/ → erwartete Labels (z. B. should_review true/false) + ggf. Beispiel-JSON
