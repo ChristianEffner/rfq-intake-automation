@@ -74,3 +74,5 @@ Artefakte
 data_samples/raw/ → Input-Texte
 
 data_samples/expected/ → erwartete Labels (z. B. should_review true/false) + ggf. Beispiel-JSON
+
+data_samples/expected/ → erwartete Labels (z. B. should_review true/false) + ggf. Beispiel-JSON
