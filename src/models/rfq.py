@@ -1,11 +1,12 @@
-from __future__ import annotations
-from datetime import date
-from typing import List, Optional
-from pydantic import BaseModel, Field, ConfigDict, field_validator, model_validator
+#Imports
+from __future__ import annotations #Aktiviert ein Python-Feature: Type Hints werden als “Strings” behandelt
+from datetime import date #Importiert den Typ date, um ISO-Datumstrings zu prüfen
+from typing import List, Optional #Das sind Typen für Type Hints: Optional[str] bedeutet: entweder str oder None; List[str] bedeutet: Liste von Strings
+from pydantic import BaseModel, Field, ConfigDict, field_validator, model_validator #Das ist alles aus pydantic (v2), um dein Datenmodell zu definieren und zu prüfen
 
-UNKNOWN = "unknown"
+UNKNOWN = "unknown" #konstante um den String nur einmal zu definieren
 
-class RFQ(BaseModel):
+class RFQ(BaseModel): #eine Klasse RFQ und erbt BaseModel aus import
     """
     RFQ data model for Project A (MVP).
 
@@ -14,10 +15,10 @@ class RFQ(BaseModel):
     - extra='forbid' ensures we don't accidentally accept unexpected fields.
     """
 
-    model_config = ConfigDict(extra="forbid")
+    model_config = ConfigDict(extra="forbid") #extra="forbid" bedeutet: Wenn in deinem Input-JSON zusätzliche Felder auftauchen, die du im Modell nicht definiert hast, dann kommt ein Validierungsfehler.
 
     # Identification / Contact
-    request_id: str = Field(..., min_length=1, description="Unique RFQ identifier")
+    request_id: str = Field(..., min_length=1, description="Unique RFQ identifier")   #genereller Aufbau von Daten: field_name: TYPE = DEFAULT
     customer_name: Optional[str] = None
     contact_name: Optional[str] = None
     contact_email: Optional[str] = None
@@ -45,22 +46,22 @@ class RFQ(BaseModel):
 
     # ---- Validators ----
 
-    @field_validator("requested_delivery_date", "response_due_date")
+    @field_validator("requested_delivery_date", "response_due_date") #ein Validator für die Felder request.../response...
     @classmethod
-    def validate_date_or_unknown(cls, v: str) -> str:
-        if v is None:
-            return UNKNOWN
-        v = v.strip()
-        if v.lower() == UNKNOWN:
-            return UNKNOWN
+    def validate_date_or_unknown(cls, v: str) -> str: #Methode zur Überprüfung ob es sich um ein valides Datum handelt, cls da es sich um eine Klassenmethode handelt, ansonsten self. v ist der Wert der vom Feld reinkommt
+        if v is None: #wenn v fehlt oder null ist
+            return UNKNOWN #wird unkown eingesetzt
+        v = v.strip() #alle Leerzeichen entfernen
+        if v.lower() == UNKNOWN: #wenn v kleingeschrieben auch unknown ist
+            return UNKNOWN #gib unknown zurück
         # Accept only ISO date format
-        try:
+        try: #überprüft ob es sich um ein gültiges ISO Format handelt
             date.fromisoformat(v)
         except ValueError as e:
             raise ValueError(f"Invalid date '{v}'. Use YYYY-MM-DD or 'unknown'.") from e
-        return v
+        return v #wenn alles passt Wert zurückgeben
 
-    @field_validator("contact_email")
+    @field_validator("contact_email") #Validator für die Felder contact_email
     @classmethod
     def validate_email_basic(cls, v: Optional[str]) -> Optional[str]:
         if v is None:
