@@ -1,0 +1,19 @@
+Subject: RFQ RFQ_0036 – PLC module
+
+Hello Sales Team,
+
+we would like to request a quotation for the following item:
+
+- Product/Service: PLC module
+- Specification: DI/DO module, 24V, compatible with common PLC systems; please include datasheet and lead time.
+- Quantity: 2500 pcs
+- Requested delivery date: 2026-02-03
+- Delivery location: München, DE
+- Incoterms: FCA
+- Response due date: 2026-01-12
+
+Please confirm availability and provide pricing incl. delivery.
+
+Best regards
+Procurement
+NordTech GmbH

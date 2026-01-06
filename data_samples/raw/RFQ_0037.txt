@@ -1,0 +1,19 @@
+Subject: RFQ RFQ_0037 – PLC module
+
+Hello Sales Team,
+
+we would like to request a quotation for the following item:
+
+- Product/Service: PLC module
+- Specification: DI/DO module, 24V, compatible with common PLC systems; please include datasheet and lead time.
+- Quantity: 200 pcs
+- Requested delivery date: 2026-04-17
+- Delivery location: Hamburg, DE
+- Incoterms: DAP
+- Response due date: 2026-01-17
+
+Please confirm availability and provide pricing incl. delivery.
+
+Best regards
+Procurement
+MechaWorks Europe

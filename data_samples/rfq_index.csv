@@ -1,0 +1,81 @@
+rfq_id,category,dirty_flags,customer,product,has_attachments,expected_needs_review
+RFQ_0013,clean,,Alpha Industrial AG,Pneumatic valve,False,False
+RFQ_0023,clean,,Rheinmetall Components (Demo),Gearbox,False,False
+RFQ_0011,clean,,Hanseatic Automation,Servo motor,True,False
+RFQ_0051,incomplete,quantity,EuroFab Industries,Sheet metal part,True,True
+RFQ_0068,incomplete,delivery_date,Hanseatic Automation,Ball bearing,False,True
+RFQ_0074,contradictory,two_quantities,Kappa Process Solutions,Cable harness,True,True
+RFQ_0054,incomplete,delivery_date,Rheinmetall Components (Demo),Ball bearing,True,True
+RFQ_0075,contradictory,two_quantities,Bergmann Maschinenbau,Pneumatic valve,True,True
+RFQ_0066,incomplete,delivery_date,Hanseatic Automation,Servo motor,False,True
+RFQ_0012,clean,,Rheinmetall Components (Demo),PLC module,False,False
+RFQ_0059,incomplete,quantity,Alpha Industrial AG,PLC module,True,True
+RFQ_0018,clean,,Rheinmetall Components (Demo),Inductive sensor,True,False
+RFQ_0022,clean,,Alpha Industrial AG,Servo motor,False,False
+RFQ_0001,clean,,Alpha Industrial AG,Pneumatic valve,False,False
+RFQ_0043,clean,,Hanseatic Automation,Sheet metal part,False,False
+RFQ_0040,clean,,MechaWorks Europe,Pneumatic valve,False,False
+RFQ_0030,clean,,Hanseatic Automation,Pneumatic valve,True,False
+RFQ_0042,clean,,EuroFab Industries,Ball bearing,False,False
+RFQ_0050,incomplete,due_date,Bergmann Maschinenbau,PLC module,True,True
+RFQ_0003,clean,,Rheinmetall Components (Demo),Sheet metal part,False,False
+RFQ_0009,clean,,Rheinmetall Components (Demo),Ball bearing,True,False
+RFQ_0055,incomplete,due_date,Rheinmetall Components (Demo),Sheet metal part,False,True
+RFQ_0021,clean,,Rheinmetall Components (Demo),Servo motor,False,False
+RFQ_0076,contradictory,two_dates,Rheinmetall Components (Demo),Gearbox,True,True
+RFQ_0049,incomplete,due_date,Rheinmetall Components (Demo),Cable harness,False,True
+RFQ_0064,incomplete,quantity,MechaWorks Europe,Gearbox,True,True
+RFQ_0046,clean,,Hanseatic Automation,Pneumatic valve,True,False
+RFQ_0070,incomplete,incoterms,Alpha Industrial AG,Pneumatic valve,False,True
+RFQ_0033,clean,,EuroFab Industries,Ball bearing,True,False
+RFQ_0019,clean,,Kappa Process Solutions,Ball bearing,False,False
+RFQ_0047,clean,,EuroFab Industries,Cable harness,True,False
+RFQ_0028,clean,,MechaWorks Europe,Sheet metal part,False,False
+RFQ_0045,clean,,Rheinmetall Components (Demo),Sheet metal part,False,False
+RFQ_0035,clean,,Rheinmetall Components (Demo),Cable harness,False,False
+RFQ_0029,clean,,Kappa Process Solutions,Ball bearing,True,False
+RFQ_0025,clean,,Alpha Industrial AG,Servo motor,True,False
+RFQ_0034,clean,,Alpha Industrial AG,Inductive sensor,False,False
+RFQ_0015,clean,,Hanseatic Automation,Inductive sensor,False,False
+RFQ_0039,clean,,Bergmann Maschinenbau,Ball bearing,True,False
+RFQ_0027,clean,,Rheinmetall Components (Demo),Ball bearing,False,False
+RFQ_0078,contradictory,two_dates,Hanseatic Automation,Cable harness,True,True
+RFQ_0058,incomplete,incoterms,Kappa Process Solutions,Gearbox,True,True
+RFQ_0016,clean,,MechaWorks Europe,Inductive sensor,False,False
+RFQ_0077,contradictory,two_dates,Rheinmetall Components (Demo),PLC module,True,True
+RFQ_0020,clean,,EuroFab Industries,Cable harness,True,False
+RFQ_0052,incomplete,due_date,Hanseatic Automation,Gearbox,False,True
+RFQ_0048,clean,,Rheinmetall Components (Demo),PLC module,False,False
+RFQ_0010,clean,,Hanseatic Automation,Pneumatic valve,True,False
+RFQ_0072,incomplete,due_date,MechaWorks Europe,PLC module,False,True
+RFQ_0065,incomplete,due_date,EuroFab Industries,PLC module,False,True
+RFQ_0041,clean,,NordTech GmbH,Cable harness,False,False
+RFQ_0080,contradictory,two_quantities,Bergmann Maschinenbau,Inductive sensor,True,True
+RFQ_0060,incomplete,delivery_date,MechaWorks Europe,Servo motor,True,True
+RFQ_0032,clean,,NordTech GmbH,Inductive sensor,True,False
+RFQ_0026,clean,,Rheinmetall Components (Demo),Inductive sensor,False,False
+RFQ_0005,clean,,Hanseatic Automation,PLC module,True,False
+RFQ_0053,incomplete,incoterms,MechaWorks Europe,Inductive sensor,True,True
+RFQ_0008,clean,,Hanseatic Automation,Servo motor,False,False
+RFQ_0031,clean,,MechaWorks Europe,Inductive sensor,True,False
+RFQ_0056,incomplete,quantity,Alpha Industrial AG,Sheet metal part,False,True
+RFQ_0073,contradictory,two_dates,Alpha Industrial AG,PLC module,True,True
+RFQ_0004,clean,,Hanseatic Automation,PLC module,True,False
+RFQ_0067,incomplete,quantity,MechaWorks Europe,Servo motor,True,True
+RFQ_0024,clean,,EuroFab Industries,Gearbox,False,False
+RFQ_0044,clean,,NordTech GmbH,Gearbox,True,False
+RFQ_0057,incomplete,due_date,Kappa Process Solutions,Cable harness,False,True
+RFQ_0062,incomplete,quantity,EuroFab Industries,Sheet metal part,True,True
+RFQ_0061,incomplete,delivery_date,EuroFab Industries,Sheet metal part,True,True
+RFQ_0037,clean,,MechaWorks Europe,PLC module,False,False
+RFQ_0002,clean,,Alpha Industrial AG,Sheet metal part,False,False
+RFQ_0014,clean,,Kappa Process Solutions,PLC module,False,False
+RFQ_0063,incomplete,due_date,EuroFab Industries,Ball bearing,False,True
+RFQ_0079,contradictory,two_quantities,Rheinmetall Components (Demo),Cable harness,True,True
+RFQ_0038,clean,,Bergmann Maschinenbau,Pneumatic valve,False,False
+RFQ_0071,incomplete,due_date,NordTech GmbH,Sheet metal part,True,True
+RFQ_0007,clean,,Rheinmetall Components (Demo),Inductive sensor,True,False
+RFQ_0006,clean,,Hanseatic Automation,Servo motor,False,False
+RFQ_0036,clean,,NordTech GmbH,PLC module,False,False
+RFQ_0017,clean,,NordTech GmbH,Cable harness,True,False
+RFQ_0069,incomplete,quantity,EuroFab Industries,Sheet metal part,False,True

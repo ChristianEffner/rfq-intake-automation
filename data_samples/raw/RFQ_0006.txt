@@ -1,0 +1,19 @@
+Subject: RFQ RFQ_0006 – Servo motor
+
+Hello Sales Team,
+
+we would like to request a quotation for the following item:
+
+- Product/Service: Servo motor
+- Specification: 400W, 230VAC, encoder 17-bit, with brake; please include datasheet and lead time.
+- Quantity: 2500 pcs
+- Requested delivery date: 2026-02-18
+- Delivery location: Stuttgart, DE
+- Incoterms: EXW
+- Response due date: 2026-01-18
+
+Please confirm availability and provide pricing incl. delivery.
+
+Best regards
+Procurement
+Hanseatic Automation

@@ -1,0 +1,19 @@
+Subject: RFQ RFQ_0015 – Inductive sensor
+
+Hello Sales Team,
+
+we would like to request a quotation for the following item:
+
+- Product/Service: Inductive sensor
+- Specification: M12, PNP NO, 10–30V, sensing distance 4mm; please include datasheet and lead time.
+- Quantity: 200 units
+- Requested delivery date: 2026-01-20
+- Delivery location: Köln, DE
+- Incoterms: FCA
+- Response due date: 2026-01-17
+
+Please confirm availability and provide pricing incl. delivery.
+
+Best regards
+Procurement
+Hanseatic Automation

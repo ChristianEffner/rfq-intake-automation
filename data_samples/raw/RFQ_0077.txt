@@ -1,0 +1,17 @@
+Subject: RFQ RFQ_0077 – PLC module
+
+Hi,
+
+requesting a quotation:
+
+- Product/Service: PLC module
+- Specification: DI/DO module, 24V, compatible with common PLC systems
+- Quantity: 1000 pcs
+- Requested delivery date: 2026-02-22 (alternatively 2026-04-21 depending on availability)
+- Delivery location: Stuttgart, DE
+- Incoterms: DAP
+
+Please confirm which delivery date you can meet.
+
+Thanks
+Rheinmetall Components (Demo)
