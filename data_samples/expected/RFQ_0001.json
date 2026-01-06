@@ -1,0 +1,18 @@
+{
+  "request_id": "RFQ_0001",
+  "customer_name": "ACME GmbH",
+  "contact_name": "Max Mustermann",
+  "contact_email": "max.mustermann@acme.com",
+  "product_or_service": "Pneumatic valve",
+  "specification": "Stainless steel, IP67, 24V DC. Please include datasheet.",
+  "quantity": 1000,
+  "quantity_unit": "pcs",
+  "requested_delivery_date": "2026-03-15",
+  "delivery_location": "Berlin, DE",
+  "incoterms": "DAP",
+  "response_due_date": "unknown",
+  "needs_review": true,
+  "missing_fields": ["response_due_date"],
+  "clarification_questions": ["Do you have a response deadline (due date)?"],
+  "tasks": ["Check delivery feasibility", "Prepare quotation", "Clarify response deadline"]
+}
