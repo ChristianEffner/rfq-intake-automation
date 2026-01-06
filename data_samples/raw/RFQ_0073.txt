@@ -1,0 +1,17 @@
+Subject: RFQ RFQ_0073 – PLC module
+
+Hi,
+
+requesting a quotation:
+
+- Product/Service: PLC module
+- Specification: DI/DO module, 24V, compatible with common PLC systems
+- Quantity: 1000 pcs
+- Requested delivery date: 2026-02-28 (alternatively 2026-04-25 depending on availability)
+- Delivery location: Köln, DE
+- Incoterms: FCA
+
+Please confirm which delivery date you can meet.
+
+Thanks
+Alpha Industrial AG

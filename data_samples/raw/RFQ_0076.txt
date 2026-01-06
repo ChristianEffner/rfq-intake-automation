@@ -1,0 +1,17 @@
+Subject: RFQ RFQ_0076 – Gearbox
+
+Hi,
+
+requesting a quotation:
+
+- Product/Service: Gearbox
+- Specification: Planetary gearbox, ratio 10:1, max torque 50Nm
+- Quantity: 100 pcs
+- Requested delivery date: 2026-01-25 (alternatively 2026-04-14 depending on availability)
+- Delivery location: Stuttgart, DE
+- Incoterms: DDP
+
+Please confirm which delivery date you can meet.
+
+Thanks
+Rheinmetall Components (Demo)
