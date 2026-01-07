@@ -1,0 +1,11 @@
+rfq_id,category,should_needs_review,expected_missing_fields
+RFQ_0064,incomplete,True,
+RFQ_0048,clean,False,
+RFQ_0029,clean,False,
+RFQ_0050,incomplete,True,
+RFQ_0030,clean,False,
+RFQ_0057,incomplete,True,
+RFQ_0074,contradictory,True,
+RFQ_0042,clean,False,
+RFQ_0015,clean,False,
+RFQ_0034,clean,False,
