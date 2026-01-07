@@ -1,0 +1,6 @@
+Attachment: Packaging & Labeling Requirements (RFQ_0003)
+
+Packaging: individual polybag + outer carton
+Label: RFQ ID + Part No + Quantity
+
+Please confirm you can meet these packaging requirements.

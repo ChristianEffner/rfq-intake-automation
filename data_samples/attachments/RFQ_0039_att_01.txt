@@ -1,0 +1,6 @@
+Attachment: Quality & Compliance Requirements (RFQ_0039)
+
+Documentation: material certificate EN 10204 3.1
+Packaging must prevent corrosion during transport
+
+If deviations are required, please list them explicitly in your offer.
