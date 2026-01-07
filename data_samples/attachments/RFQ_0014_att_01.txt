@@ -1,0 +1,10 @@
+Attachment: Technical Specification (RFQ_0014)
+
+Finish: powder-coated
+Color: RAL 7035
+Bending tolerance: ±0.5mm
+Surface: free of sharp edges
+
+Notes:
+- Please confirm lead time and availability.
+- Include datasheet in your quotation.

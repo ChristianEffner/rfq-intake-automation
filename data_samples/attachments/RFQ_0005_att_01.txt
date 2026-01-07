@@ -1,0 +1,15 @@
+Attachment: Delivery / Billing Information (RFQ_0005)
+
+Delivery Address:
+Example Industries GmbH
+Logistics Center
+Musterstraße 12
+80331 München
+
+Requested delivery window: 2026-05-05 to 2026-06-26
+
+Billing Address:
+Example Industries GmbH
+Finance Dept.
+Rechnungsweg 5
+10115 Berlin

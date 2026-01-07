@@ -1,0 +1,7 @@
+Attachment: Quality & Compliance Requirements (RFQ_0003)
+
+Quality requirement: ISO 9001 supplier
+Incoming inspection: AQL 1.0
+Traceability: batch number required
+
+If deviations are required, please list them explicitly in your offer.
